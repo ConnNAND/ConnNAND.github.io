@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnNAND's Portfolio: Godot Toolkit</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.         This makes it easier to make new pages for your site. -->
+    <link href="style2.css" rel="stylesheet" type="text/css" media="all">
+    <script src="components/site-templates.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <template-header></template-header>
+    <div id="container">
+      
+      <div id="flex">
+        <main>
+            <!--<center><video width="90%" controls autoplay muted><source src="videos\RascalRumble.mp4" type="video/mp4"></video></center>-->
+            <center><img width="90%" src="images\toolkit.png" alt="Toolkit music editor screenshot"></center>
+            <h2>Godot Toolkit</h2>
+            <hr>
+            <div class="grid" style="grid-template-columns: auto auto auto;">
+                <p>Engine Used: Godot 4</p>
+                <p>Time Frame: Ongoing</p>
+                <p>Link: <a href="https://github.com/ConnNAND/Godot-Toolkit">Github</a></p>
+            </div>
+            <hr>
+            <h1>About the Project</h1>
+            <p>After completing several projects, I realized that there's a lot of things that I do basically the exact same way as soon as a start something new, so I made the desicion to revisit some previous games, take some code, and integrate it all as new nodes into one Godot plugin that I can add to any project I start.</p>
+            <p>The initial spark for this was the audio systems I developed for Fear the Forgotten and Trash Lord. The plugin grew from there into tools to make things I find tedious easier.</p>
+            <p>Menus now have a single node to create and format them exactly how I like. Animation is slow and hard, so I developed a form of motion capture using Godot's animation system and a VR headset.</p>
+            <p>Dialog can be tricky, but plenty of games use it, so I build a dialog handler that supports audio playback and automatic scrolling as well. To go along with the dialog system I created a node for swapping animations or sprites based on phonemes detected in an audio waveform to make realtime mouth movements without needing a premade animation. This also pairs with an eye tracking node that moves a pupil to look at a point of interest, both in 2D and in 3D.</p>
+            <p>The true cherry on top of all of this is the music creation tool I developed to put my knowledge gained from my Music Theory 2 course into action. It allows you to build a series of chords and easily manipulate them without the use of a piano roll, which I found helps you focus on the principles of music theory moreso than the individual notes at play, then you can export the sequence to a midi file and drag & drop it into your DAW of choice.</p>
+            <h1>Accomplishments & Lessons Learned</h1>
+            <p>Creating this plugin salvaged some of the best parts of my previous projects or projects that had never been finished/released, allowing me to skip tediously creating the same things over and over again, I could revisit their flaws and improve upon them, as well as creating foundations for new projects and tools to use in the future to make life easier, and it keeps growing as I grow.</p>
+
+          </main>
+      </div>
+    </div>
+  <template-footer></template-footer>
+  </body>
+</html>

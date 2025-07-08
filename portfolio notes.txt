@@ -1,0 +1,16 @@
+list best couple projects on the home page with playable versions at the top of their respective pages once redirected
+
+release date, engine used, and outgoing link should be placed directly under the game, while the project title is placed above
+
+post-mortems underneath the extra info, along with any relevant media like screenshots
+
+if an online build of the game is unavailable, replace the game at the top with a gameplay video
+
+post-mortems should include what the project is, why it was made, and what i learned from it
+
+
+
+
+in the project gallery page, each project should list the project name, creation date, and engine used
+
+You should also be able to filter the gallery to show only audio-centric projects vs all gameplay oriented projects

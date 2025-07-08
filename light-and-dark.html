@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnNAND's Portfolio: Light & Dark</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.         This makes it easier to make new pages for your site. -->
+    <link href="style2.css" rel="stylesheet" type="text/css" media="all">
+    <script src="components/site-templates.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <template-header></template-header>
+    <div id="container">
+      
+      <div id="flex">
+        <main>
+            <center><img src="images\Light & Dark Network Showcase.gif" width="90%" alt="Light & Dark Gameplay GIF"></center>
+            <h2>Light & Dark</h2>
+            <hr>
+            <div class="grid" style="grid-template-columns: auto auto auto;">
+                <p>Engine Used: PyGame</p>
+                <p>Time Frame: April 2022</p>
+                <p>Link: <a href="https://github.com/ThePeachyOne/ETGG-1802-Project">Github</a></p>
+            </div>
+            <hr>
+            <h1>About the Project</h1>
+            <p>Light & Dark is a top-down co-op platformer that gives you a variety of abilities to work with, including swapping places with your partner, moving faster over matching colored tiles, and entering a wisp form to move through your matching colored obstacles. It might be rough around the edges, but Light & Dark served as a fantastic starting point for understanding more complex systems and ideas, as well as how much goes on in the background of game engines.</p>
+            <p>Light & Dark was made as a final assignment with three others in our first year of college. Being free to work on whatever we liked, and not really recognizing how group dynamics should function yet, I took the job of researching how networked multiplayer might be possible within PyGame, and in turn became the one responsible for translating everyone else's work into a format that would be functional using a server/client relationship.</p>
+            <h1>Accomplishments & Lessons Learned</h1>
+            <p>This game was made by me and three others, and none of us had any experience making a multiplayer game before. While it seemed like a good idea at the time, assigning one person to become the "network master" to adapt everyone else's code into something acceptable in a server-client relationship was not an even division of labor.</p>
+            <p>I was the so-called network master, and ended up writing most of the code from scratch, with others code essentially only being used as a reference. I needed to put in some real overtime to keep up with everyone's contributions while teaching myself networking, but the knowledge I gained about websockets, packet transfers, and how to best structure your code for network multiplayer still comes in handy to this day.</p>
+
+          </main>
+      </div>
+    </div>
+  <template-footer></template-footer>
+  </body>
+</html>
