@@ -209,7 +209,7 @@
                 /* background-image: var(--container-bg-image); */
                 background-color: azure;
                 flex: 1;
-                padding: 20px;
+                padding: 16px;
                 order: 2;
             }
 
