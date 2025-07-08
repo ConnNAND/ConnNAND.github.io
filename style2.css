@@ -261,6 +261,7 @@
                 border: 1px solid #873F7A;
                 padding: 10px;
                 width:auto;
+                height:fit-content;
                 overflow: visible;
             }
 
