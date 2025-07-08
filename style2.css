@@ -40,7 +40,7 @@
             body {
                 /*cursor: url("https://dog-sama.neocities.org/images/sparklecursor.gif"), url("https://dog-sama.neocities.org/images/rainbowcursor.png"), auto;*/
                 font-family: 'IllusionSerif';
-                font-size: 18px;
+                font-size: 17px;
                 margin: 0;
                 background-color: #08031A;
                 /* you can delete the line below if you'd prefer to not use an image */
@@ -246,7 +246,7 @@
             }
 
             h1 {
-                font-size: 25px;
+                font-size: 26px;
             }
 
             strong {
