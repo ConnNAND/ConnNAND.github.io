@@ -35,7 +35,7 @@ class TemplateFooter extends HTMLElement{
     <div id="container2" style="width:50%;">
       <h2>Want to Reach Out?</h2>
       <h3>Discord: @dogsama</h3>
-      <h3>GitHub: <a href="https://github.com/ConnNAND">ConnNAND</a></h3>
+      <h3><a href="https://www.linkedin.com/in/connnand/">LinkedIn</a></h3>
     </div>
       <br>
       </footer>
