@@ -299,7 +299,7 @@
                 .grid {
                     grid-template-columns: auto;
                     height:fit-content;
-                    overflow: scroll;
+                    overflow-y: scroll;
                 }
 
                 /* the order of the items is adjusted here for responsiveness!
